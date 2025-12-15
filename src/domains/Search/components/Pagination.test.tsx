@@ -32,7 +32,7 @@ describe('Pagination', () => {
   });
 
   it('should highlight current page', () => {
-    const { container } = render(<Pagination {...defaultProps} currentPage={2} />);
+    render(<Pagination {...defaultProps} currentPage={2} />);
     
     const currentPageButton = screen.getByText('2').closest('button');
     expect(currentPageButton).toHaveClass('bg-primary');

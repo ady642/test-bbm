@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { ExternalLink, TrendingUp, TrendingDown } from 'lucide-react';
 import { PairToken } from '../models/PairToken';
-import { cn, formatCurrency, formatNumber, formatPercentage } from '@/lib/utils';
+import { cn, formatNumber, formatPercentage } from '@/lib/utils';
 
 interface PairCardProps {
   pair: PairToken;

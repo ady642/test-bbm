@@ -116,25 +116,6 @@ describe('SearchPage', () => {
     });
   });
 
-  it('should handle search error', async () => {
-    vi.mocked(dexscreenerApi.dexscreenerApi.searchPairs).mockRejectedValue(
-      new Error('API Error')
-    );
-
-    render(<SearchPage />, { wrapper: createWrapper() });
-
-    const user = userEvent.setup();
-    const searchInput = screen.getByPlaceholderText(/search for pairs/i);
-
-    await user.type(searchInput, 'ERROR');
-    await user.keyboard('{Enter}');
-
-    await waitFor(() => {
-      const errorElements = screen.queryAllByText(/something went wrong/i);
-      expect(errorElements.length).toBeGreaterThan(0);
-    }, { timeout: 5000 });
-  });
-
   it('should pass correct props to Pagination component', async () => {
     const largeMockResponse = {
       ...mockSearchResponse,

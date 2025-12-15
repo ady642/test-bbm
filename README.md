@@ -110,13 +110,11 @@ npm run preview
 - Encapsulation de la logique de transformation
 
 ### Performance
-- Mémoïsation avec `useMemo` et `memo`
 - Pagination côté client pour réduire les appels API
 - Cache avec TanStack Query (30s staleTime)
 - Composants optimisés pour éviter les re-renders
 
 ### UX/UI
-- Design moderne et épuré
 - États visuels clairs (loading, error, empty)
 - Feedback visuel sur les interactions
 - Responsive design
@@ -124,7 +122,7 @@ npm run preview
 
 ## 📝 Notes
 
-**Temps de développement** : ~2 heures
+**Temps de développement** : ~2h30 heures
 
 **Améliorations possibles avec plus de temps** :
 - Filtres avancés (liquidité min, volume min, blockchain)
@@ -132,3 +130,5 @@ npm run preview
 - Favoris persistants (localStorage)
 - Graphiques de prix
 - Déploiement CI/CD
+- Améliorer design (UI et UX)
+- Séparer couches UI et métier
