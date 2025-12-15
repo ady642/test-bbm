@@ -21,13 +21,11 @@ src/
 ├── domains/
 │   └── Search/
 │       ├── models/           # Modèles métier (PairToken, Paginator)
-│       │   └── __tests__/    # Tests unitaires des modèles
 │       ├── types/            # Types TypeScript
 │       ├── store/            # Store Zustand
 │       ├── api/              # Services API
 │       ├── hooks/            # Hooks React Query
 │       ├── components/       # Composants React
-│       │   └── __tests__/    # Tests des composants
 │       └── pages/            # Pages
 ├── lib/                      # Utilitaires
 └── test/                     # Configuration des tests
