@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "DEX Pair Explorer",
+    "description": "Search and discover trading pairs across decentralized exchanges"
+  },
+  "search": {
+    "placeholder": "Search for pairs (e.g., SOL/USDC, ETH/USDT)",
+    "button": "Search",
+    "searching": "Searching for pairs...",
+    "validation": {
+      "required": "Search query is required",
+      "minLength": "Search query must be at least 2 characters"
+    }
+  },
+  "empty": {
+    "initial": {
+      "title": "Search for Trading Pairs",
+      "description": "Enter a token symbol or pair name to get started"
+    },
+    "noResults": {
+      "title": "No Results Found",
+      "description": "Try adjusting your search query or check for typos"
+    }
+  },
+  "error": {
+    "title": "Something Went Wrong",
+    "retry": "Try Again",
+    "default": "Failed to fetch trading pairs"
+  },
+  "pair": {
+    "price": "Price",
+    "volume24h": "24h Volume",
+    "liquidity": "Liquidity",
+    "marketCap": "Market Cap",
+    "priceChange": "24h Change",
+    "viewOn": "View on DEX Screener"
+  },
+  "pagination": {
+    "showing": "Showing {{start}} to {{end}} of {{total}} results",
+    "first": "First",
+    "previous": "Previous",
+    "next": "Next",
+    "last": "Last"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "english": "English",
+    "french": "French",
+    "select": "Select language"
+  }
+}

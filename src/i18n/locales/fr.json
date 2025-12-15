@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Explorateur de Paires DEX",
+    "description": "Recherchez et découvrez des paires de trading sur les échanges décentralisés"
+  },
+  "search": {
+    "placeholder": "Rechercher des paires (ex: SOL/USDC, ETH/USDT)",
+    "button": "Rechercher",
+    "searching": "Recherche en cours...",
+    "validation": {
+      "required": "La recherche est requise",
+      "minLength": "La recherche doit contenir au moins 2 caractères"
+    }
+  },
+  "empty": {
+    "initial": {
+      "title": "Rechercher des Paires de Trading",
+      "description": "Entrez un symbole de token ou un nom de paire pour commencer"
+    },
+    "noResults": {
+      "title": "Aucun Résultat Trouvé",
+      "description": "Essayez d'ajuster votre recherche ou vérifiez les fautes de frappe"
+    }
+  },
+  "error": {
+    "title": "Une Erreur s'est Produite",
+    "retry": "Réessayer",
+    "default": "Échec de la récupération des paires de trading"
+  },
+  "pair": {
+    "price": "Prix",
+    "volume24h": "Volume 24h",
+    "liquidity": "Liquidité",
+    "marketCap": "Capitalisation",
+    "priceChange": "Variation 24h",
+    "viewOn": "Voir sur DEX Screener"
+  },
+  "pagination": {
+    "showing": "Affichage de {{start}} à {{end}} sur {{total}} résultats",
+    "first": "Premier",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "last": "Dernier"
+  },
+  "theme": {
+    "light": "Mode Clair",
+    "dark": "Mode Sombre",
+    "toggle": "Changer le thème"
+  },
+  "language": {
+    "english": "Anglais",
+    "french": "Français",
+    "select": "Choisir la langue"
+  }
+}
